@@ -1,0 +1,9 @@
+yang di config :
+
+1. eslintrc.json
+2. type.dts
+   3.tailwind.config.ts
+3. next.config.ts
+   5.create next-sitemap.config.js
+
+npm config set legacy-peer-deps true for npm i next-mdx-remote

@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import aspect from "@tailwindcss/aspect-ratio";
 
 export default {
   content: [
@@ -14,5 +15,6 @@ export default {
       },
     },
   },
-  plugins: [],
+
+  plugins: [aspect], // eslint-disable-next-line @typescript-eslint/no-var-requires,
 } satisfies Config;
